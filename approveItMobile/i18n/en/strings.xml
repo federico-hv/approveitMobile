@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- General -->
+	<string name="message">Message</string>
+	<string name="accept">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="welcome">Welcome!</string>
+	<string name="enter">Enter</string>
+	<string name="workInProgress">We are currently working on this section. It will be ready soon...</string>
+	
+	<!--index.js-->
+	<string name="login">Sign in</string>
+	<string name="user">User</string>
+	<string name="password">Password</string>
+	<string name="networkError">Network error! Please check your connection and try again.</string>
+	<string name="error">The password or email are incorrect. Please check and try again</string>
+	<string name="successfulAuth">Welcome!</string>
+	<string name="invalidForm">Invalid data. Please check the format and try again</string>
+	
+	<!-- main.js -->
+	<string name="formButton">Form</string>
+	<string name="reportsButton">Reports</string>
+	<string name="chatButton">Chat</string>
+	<string name="connected">You are now connected to the server...</string>
+
+	<!--form.js-->
+	<string name="survey">Survey</string>
+	<string name="firstname">First name</string>
+	<string name="lastname">Last name</string>
+	<string name="idocument">Id</string>
+	<string name="age">Age</string>
+	<string name="occupation">Occupation</string>
+	<string name="address">Address</string>
+	<string name="phone">Phone</string>
+	<string name="maritalstatus">Marital status</string>
+	<string name="single">Single</string>
+	<string name="married">Married</string>
+	<string name="divorced">Divorced</string>
+	<string name="widowed">Widowed</string>
+	<string name="separated">Separated</string>
+	<string name="gender">Gender</string>
+	<string name="male">Male</string>
+	<string name="female">Female</string>
+	<string name="dateofbirth">Birthdate</string>
+	<string name="smoker">Smoker</string>
+	<string name="takepicture">Take a picture</string>
+	<string name="cameraerror">There was an error. Please take the picture again.</string>
+	<string name="opengallery">Open gallery</string>
+	<string name="galleryerror">There was an error. Please select the picture again.</string>
+	<string name="geopurpose">Your location is going to be registered in a database</string>
+	<string name="send">Send</string>
+	<string name="noimage">Please select or take a picture.</string>
+	<string name="nosession">Are you sure you want to close the session</string>
+	<string name="confirmClose">This will delete all the data in the current form. Are your sure</string>
+	<string name="picMessage">There's already an image loaded. What do you want to do</string>
+	<string name="picPreview">View</string>
+	<string name="picDelete">Delete</string>
+	<string name="cameraNotSupported">This device doesn't have camera support</string>
+	
+
+	
+	<!-- ERRORS -->
+	<string name="firstNameError">You must enter a valid First name.</string>
+	<string name="lastNameError">You must enter a valid Last name.</string>
+	<string name="idError">You must enter a valid Id(include periods and hyphen).</string>
+	<string name="occupationError">You must enter a valid occupation.</string>
+	<string name="emailError">You must enter a valid email.</string>
+	<string name="addressError">You must enter a valid address.</string>
+	<string name="phoneError">You must enter a valid phone number. Remember the international format(+56XXXXXXXX).</string>
+	<string name="maritalStatusError">You must enter a valid marital status.</string>
+	<string name="genderError">You must enter a valid gender.</string>
+	<string name="imageError">Please add a valid image.</string>
+	<string name="dateError">Please enter a valid birthdate.</string>
+	<string name="wrongIdCarac">Please enter a valid caracter for the Chilean Id:</string>
+	<string name="networkError">No internet connection! Please connect the device and retry.</string>
+	<string name="cameraHeavy">The image is too heavy! Please lower the camera's resolution and try again.</string>
+	<string name="galleryHeavy">The image is too heavy! Please Select another one.</string>
+	<string name="imageHeavy">The image is too heavy! Please lower the camera's resolution or select another one from the gallery.</string>
+	<string name="blobError">Error loading the image. Please try again or use another one.</string>
+	<string name="sendingDataError">There was an error while sending files. Please retry.</string>
+	<string name="imageNotFile">You must select an image file.</string>
+</resources>

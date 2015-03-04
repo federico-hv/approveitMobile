@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container">
+		<View id="mainView">
+			<View id="one">
+				<View id="oneOne">
+                </View>
+                <View id="oneTwo">
+                    <Label id="viewTitle"/>
+                </View>
+                <View id="oneThree">
+                	<Button id="close"></Button>
+                </View>
+			</View>
+			<View id="two">
+				<Button id="formButton"></Button>
+				<Button id="reportsButton"></Button>
+				<Button id="chatButton"></Button>
+			</View>
+			<View id="three"></View>
+		</View>
+	</Window>
+</Alloy>

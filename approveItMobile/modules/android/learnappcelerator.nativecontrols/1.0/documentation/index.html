@@ -1,0 +1,55 @@
+<h1>nativecontrols Module</h1>
+<h2>Description</h2>
+<p>This module is used to create native controls in titanium which are not available in titanium APIs.</p>
+<h2>Accessing the nativecontrols Module</h2>
+<p>To access this module from JavaScript, you would do the following:</p>
+<pre><code>var nativecontrols = require("learnappcelerator.nativecontrols");
+</code></pre>
+<p>The nativecontrols variable is a reference to the Module object.  <br />
+</p>
+<h2>Reference</h2>
+<p>1.createRadioGroup();</p>
+<p>This method used to create the RadioGroup with radio buttons</p>
+<p>Properties:</p>
+<p>a.) textColor  - specify the Radio button text eg. #FF0000 (6 digit only)
+                 default text color is #000000</p>
+<p>b.) selectedIndex - specify the default selected radio button index. eg: selectedIndex  : 2. 
+                    default value is 0.</p>
+<p>c.) layoutType  - specify the radio group layout orientation "vertical" or "horizontal".
+                  default layoutType is "horizontal"
+d.) buttons     - Array of objects with id and text value. The buttons created with text.
+                eg, buttons : [{
+                                    id : 1,
+                                    text : 'value 11'
+                                }, {
+                                    id : 2,
+                                    text : 'value 12'
+                                }, {
+                                    id : 3,
+                                    text : 'value 13'
+                                }]</p>
+<h2>Usage</h2>
+<p>var radiogroup = nativecontrols.createRadioGroup({
+    width : Ti.UI.SIZE,
+    height : Ti.UI.SIZE,
+    top : 100,
+    left : 10,
+    textColor : "",
+    selectedIndex : 2,
+    layoutType : "vertical",
+    buttons : [{
+        id : 1,
+        text : 'value 11'
+    }, {
+        id : 2,
+        text : 'value 12'
+    }, {
+        id : 3,
+        text : 'value 13'
+    }]
+});</p>
+<h2>Author</h2>
+<p>Kabeer. J , Software Engineer</p>
+<p>Prakash. M , Software Engineer</p>
+<h2>License</h2>
+<p>Opensource @ 2013 copyrights reserved to learnappcelerator.blogspot.in.</p>

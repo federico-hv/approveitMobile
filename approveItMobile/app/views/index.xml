@@ -1,0 +1,34 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="one">
+				<View id="oneOne"></View>
+					<View id="oneTwo"> <!-- Layout horizontal -->
+						<View id="oneTwoOne"></View>
+							<View id="oneTwoTwo">
+								<View id="pictureBackground">
+									<ImageView id="picture"/>
+								</View>
+							</View>
+						<View id="oneTwoThree"></View>
+					</View>
+				<View id="oneThree">
+				</View>
+			</View>
+			<View id="two">
+				<View id="twoOne">
+					<TextField id="email" class="text" maxLength="50"/>
+				</View>
+				<View id="twoTwo"></View>
+				<View id="twoThree">
+					<TextField id="password" class="text" maxLength="10"/>
+				</View>
+				<View id="twoFour"></View>
+				<View id="twoFive">
+					<Button id="login"></Button>
+				</View>
+				<View id="twoSix"></View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,79 @@
+".container": {
+	backgroundColor:"white",
+	orientationModes: [Titanium.UI.PORTRAIT],
+	navBarHidden:true,
+	titleControl:false,
+	backgroundColor:"pink"
+},
+"#main":{
+	layout:"vertical",
+	width:"100%",
+	height:"100%",
+	backgroundColor: "#007690"
+},
+"#one":{
+	layout:'horizontal',
+	height:'12%',
+	width:'100%'
+},
+"#oneOne":{
+	height:'100%',
+	width:'25%'
+},
+"#viewTitle":{
+	font:{
+		fontSize:'30%'
+	},
+	color:"#FFF"
+},
+"#oneTwo":{
+	height:'100%',
+	width:'50%'
+},
+"#oneThree":{
+	layout:'vertical',
+	height:'100%',
+	width:'25%'
+},
+"#back":{
+	top:'37%',
+	width:'35%',
+	height:'35%',
+	backgroundImage: '/images/specific/back.png',
+	left:15
+},
+"#two":{
+	layout:'vertical',
+	height:'74%',
+	width:'100%',
+	backgroundColor:'white'
+},
+"#loadingView":{
+	duration: 70,
+    repeatCount: 0,
+    top:150,
+    width:'40%',
+    heigth:'20%',
+    images:[
+    	'/images/specific/loading1.png',
+    	'/images/specific/loading2.png',
+    	'/images/specific/loading3.png',
+    	'/images/specific/loading4.png',
+    	'/images/specific/loading5.png',
+    	'/images/specific/loading6.png',
+    	'/images/specific/loading7.png',
+    	'/images/specific/loading8.png'
+    ]
+},
+"#three":{
+	layout:'vertical',
+	height:'14%',
+	width:'100%',
+	bottom:40
+},
+"#send":{
+	top:20,
+	width:"60%",
+	height: "60%",
+	borderRadius:5
+}

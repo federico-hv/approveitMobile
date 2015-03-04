@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: This modules helps to create android native controls in titanium.
+This version is used to create Radio Group and to access it.
+author: Kabeer J and Prakash M
+license: Opensource
+copyright: Appcelerator @2013 copy rights
+
+
+# these should not be edited
+name: nativecontrols
+moduleid: learnappcelerator.nativecontrols
+guid: 71779476-2912-4953-a71d-1dc769d3e806
+platform: android
+minsdk: 3.0.0.GA
